@@ -1,0 +1,31 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-container h1 {
+    font-size: 2rem;
+}
+.main-container input {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.main-container div {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 1rem;
+}
+.btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid;
+    border-radius: 0.5rem;
+}
